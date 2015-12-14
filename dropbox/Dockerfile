@@ -1,3 +1,9 @@
+#
+# docker run -it --name dropbox \
+#		-v $HOME/Dropbox:/home/user/Dropbox
+#		dropbox
+#
+
 FROM debian:latest
 
 RUN apt-get update \
